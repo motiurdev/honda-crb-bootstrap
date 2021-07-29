@@ -17,6 +17,38 @@
 <body>
     <header class="text-white" style="background: #264653;">
         <div class="container">
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark py-4">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="ms-lg-4 nav-link" href="#" target="_blank">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="ms-lg-4 nav-link" href="#" target="_blank">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="ms-lg-4 nav-link" href="#" target="_blank">Contact</a>
+                            </li>
+                            <li class="nav-item ms-lg-5">
+                                <button class="btn px-3 ms-lg-5"
+                                    style="background: #E76F51;color:#fff;border: none;">Login</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Banner -->
             <div class="d-flex flex-column flex-sm-column flex-lg-row justify-content-between align-items-center py-5">
                 <div class="mb-5 col-12 col-lg-6">
                     <p class="primary-text-color">Computer-controlled digital transistorized with electronic advance</p>
@@ -325,7 +357,7 @@
             <div class="container">
                 <h1 class="fw-bold text-center mb-5 pb-4"> <span style="color: #E76F51;">Upcoming</span> Bikes
                 </h1>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
                         <div class="card h-100">
                             <img src="images/upcoming/bike1.jpg" class="card-img-top" alt="...">
@@ -421,7 +453,7 @@
         </section>
 
         <!-- brand logo -->
-        <section class="py-5">
+        <section class="py-5 mb-5">
             <div class="container overflow-hidden">
                 <h1 class="fw-bold text-center mb-5 pb-4"> <span style="color: #E76F51;">Brand</span> Logos
                 </h1>
@@ -490,34 +522,54 @@
 
     <!-- footer -->
     <footer class="bg-dark">
-        <div class="container overflow-hidden">
-            <div class="row gx-5">
-                <div class="col">
+        <div class="container overflow-hidden text-white">
+            <div class="row gx-5 justify-content-between align-items-center py-5">
+                <div class="col-12 col-lg-7">
                     <div class="p-3">
-                        <ul class="d-flex">
-                            <li><a href="#" target="_blank">Download Now</a></li>
-                            <li><a href="#" target="_blank">License</a></li>
+                        <ul class="nav d-flex">
+                            <li class="nav-item"><a href="#" target="_blank"
+                                    class="text-decoration-none text-white nav-link">Download Now</a></li>
+                            <li class="nav-item"><a href="#" target="_blank"
+                                    class="text-decoration-none text-white nav-link">License</a></li>
                         </ul>
-                        <ul>
-                            <li><a href="#" target="_blank">About</a></li>
-                            <li><a href="#" target="_blank">Features</a></li>
-                            <li><a href="#" target="_blank">Pricing</a></li>
-                            <li><a href="#" target="_blank">Careers</a></li>
-                            <li><a href="#" target="_blank">Help</a></li>
-                            <li><a href="#" target="_blank">Privacy Policy</a></li>
+                        <ul class="nav d-flex py-2">
+                            <li class="nav-item">
+                                <a href="#" target="_blank" class="text-decoration-none text-white nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" target="_blank" class="text-decoration-none text-white nav-link">
+                                    Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" target="_blank" class="text-decoration-none text-white nav-link">
+                                    Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" target="_blank" class="text-decoration-none text-white nav-link">
+                                    Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" target="_blank" class="text-decoration-none text-white nav-link">
+                                    Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" target="_blank" class="text-decoration-none text-white nav-link">
+                                    Privacy Policy</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg-5 d-flex justify-content-left justify-content-lg-end">
                     <div class="p-3">
                         <h3>Get the App</h3>
-                        <div class="d-flex flex-column">
-                            <img src="images\App Store Badge.png" alt="" class="img-fluid">
-                            <img src="images\Google Play Badge.png" alt="" class="img-fluid">
+                        <div class="d-flex flex-column gap-2">
+                            <img src="images\App Store Badge.png" alt="" class="img-fluid" width="135">
+                            <img src="images\Google Play Badge.png" alt="" class="img-fluid" width="135">
                         </div>
                     </div>
                 </div>
             </div>
+            <p class="text-center">© 2020 bike. All rights reserved</p>
         </div>
     </footer>
     <!-- bootstrap js -->
