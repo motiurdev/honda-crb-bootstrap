@@ -1,0 +1,15 @@
+
+
+ /* utilities css */
+
+.primary-text-color {
+    color: #E0E0E0;
+}
+
+.bg-primary {
+    background: #E76F51;
+}
+
+.imagegray {
+    filter: grayscale(100%);
+}
