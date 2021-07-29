@@ -20,3 +20,7 @@ body {
 .imagegray {
     filter: grayscale(100%);
 }
+
+.star-color {
+    color: #E77C40;
+}
